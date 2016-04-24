@@ -1,9 +1,9 @@
 prologues := 3;     % sortie EPS
 
 beginfig(1)
-    input ../metadin/template;
+    input ../metadin/grid;
     input ../metadin/pencil;
-    draw z30{up}..z52..{down}z44..{down}z14..z5;
+    draw z30{up}--z52..{down}z44..{down}z14..z5;
     draw z34{down}..z22..z10..z3..{up}z14;
     dotlabels.top(70, 71, 72, 73, 74, 75, 76);
     dotlabels.top(60, 61, 62, 63, 64, 65, 66);
