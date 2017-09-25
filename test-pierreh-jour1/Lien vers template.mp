@@ -1,1 +1,0 @@
-/home/pierreh/works/osp.foundry.metadin/metadin/template.mp
